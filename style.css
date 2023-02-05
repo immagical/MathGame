@@ -1,0 +1,64 @@
+body {
+    /* background: linear-gradient(to right, #005aa7, #fffde4); */
+    background-image: url(bg1.webp);
+    background-size: cover;
+    background-repeat: no-repeat; 
+  }
+.bg-warning {
+    border: 10px goldenrod ridge;
+    padding: 10px;
+    font-family: 'Playball', cursive;
+    font-size: 50px;
+}
+.player {
+    border-radius: 20px;
+    border: dotted 7px #DAC17C;
+    padding : 5px; 
+    margin: 50px;
+    background-color: #FFF59E; 
+    width: 80%; 
+}
+.player:hover {
+    background-color: #FFF157;
+}
+.player h2 {
+    color: goldenrod; 
+    font-family: 'Xanh Mono', monospace;
+    font-size: 30px;
+}
+input {
+    width: 80% ;
+    color: goldenrod !important; 
+    font-size: 32px !important;
+    font-family: 'Sacramento', cursive;
+}
+.glyphicon {
+    font-size : 20px; 
+}
+.btn {
+    height: 50px;
+    border: 2px #BDA55D solid; 
+}
+
+h4 {
+    font-family: 'Xanh Mono', monospace;
+    font-size: 20px; 
+    color : black; 
+}
+
+#output {
+    border-radius: 20px;
+    border: dotted 7px #DAC17C;
+    padding : 5px; 
+    margin: 50px;
+    background-color: #FFF59E; 
+    width: 80%; 
+}
+#output:hover {
+    background-color: #FFF157;
+}
+#output h2 {
+    color: goldenrod; 
+    font-family: 'Xanh Mono', monospace;
+    font-size: 30px;
+}
